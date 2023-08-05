@@ -7,16 +7,28 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <nav class="navbar">
-        <img src="" alt="">
-        <ul class="nav-ul">
-            <li><a href="">Home</a></li>
-            <li><a href="">Login</a></li>
-            <li><a href="">Contact Us</a></li>
-        </ul>
-        <button class="nav-button">View</button>
-        <button class="nav-button">Add Person</button>
-    </nav>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="about.php">
+          <img src="./include/favicon_io/favicon-16x16.png" width="30" height="30" class="d-inline-block align-top" alt="Logo">
+          Salem Server
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="signup.php">Sign Up</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="logon.php">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="view.php">View</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     <section class="container">
         <div class="tab-container">
             <input class="tab" type="button" value="Enter Number">
