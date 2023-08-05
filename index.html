@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <img src="" alt="">
+        <ul class="nav-ul">
+            <li><a href="">Home</a></li>
+            <li><a href="">Login</a></li>
+            <li><a href="">Contact Us</a></li>
+        </ul>
+        <button class="nav-button">View</button>
+        <button class="nav-button">Add Person</button>
+    </nav>
+    <section class="container">
+        <div class="tab-container">
+            <input class="tab" type="button" value="Enter Number">
+            <input class="tab" type="button" value="Number from Address Book">
+            <input class="tab" type="button" value="Message Template">
+        </div>
+        <form action="sms.php" method="post">
+            <div class="first-div">
+               <div id="side"><a href="">Country codes</a></div> <br>
+                <input type="text" name="phone_number" placeholder="Type a phone number in international format . For example: +23354159968">
+            </div>
+            <div class="second-div">
+                <h2>The Text of your message</h2>
+                <textarea class="text-area" name="message" id="" cols="50" rows="10" placeholder="Enter your message here"></textarea>
+            </div>
+            <div class="third-div">
+                <select name="sender" id="" value="Select a sender" placeholder="Select a sender" >Select Sender</select>
+            </div>
+            <div class="fourth-div">
+                <input class="button" type="date" name="schedule" id="" value="Schedule">
+                <input class="button" type="submit" value="Send" name="Send">
+            </div>
+        </form>
+    </section>
+    <footer>
+
+    </footer>
+</body>
+</html>
