@@ -37,13 +37,7 @@ mysqli_stmt_execute($stmt);
 //     echo $ex->getTraceAsString();
 // }
 
-$query = array(
-  "clientid" => "kcaliqtv",
-  "clientsecret" => "rmiumzxp",
-  "from" => "SamlemInc.",
-  "to" => "$PhoneNumber",
-  "content" => "$Message",
-);
+
 
 $curl = curl_init();
 
